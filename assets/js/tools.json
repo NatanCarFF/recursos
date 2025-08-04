@@ -1,0 +1,26 @@
+[
+    {
+        "id": "ferramenta1",
+        "name": "Ferramenta 1",
+        "image": "assets/img/placeholder.png",
+        "link": "#"
+    },
+    {
+        "id": "ferramenta2",
+        "name": "Ferramenta 2",
+        "image": "assets/img/placeholder.png",
+        "link": "#"
+    },
+    {
+        "id": "ferramenta3",
+        "name": "Ferramenta 3",
+        "image": "assets/img/placeholder.png",
+        "link": "#"
+    },
+    {
+        "id": "ferramenta4",
+        "name": "Ferramenta 4",
+        "image": "assets/img/placeholder.png",
+        "link": "#"
+    }
+]

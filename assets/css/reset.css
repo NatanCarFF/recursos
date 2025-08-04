@@ -1,0 +1,53 @@
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margin padrão */
+body,
+h1, h2, h3, h4, h5, h6,
+p, ol, ul, figure,
+blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Remove padding padrão em listas */
+ol, ul {
+  padding: 0;
+}
+
+/* Define o corpo do documento */
+body {
+  min-height: 100vh; /* Garante que o body ocupe a altura total da viewport */
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Reset de imagens para que sejam responsivas */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove sublinhado de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Formata botões e formulários */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+/* Remove a lista de marcadores padrão */
+ul, ol {
+  list-style: none;
+}

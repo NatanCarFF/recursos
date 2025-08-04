@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--card-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    margin-top: auto; /* Garante que o rodapé fique sempre na parte inferior */
+    border-top: 2px solid var(--primary-color);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
