@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         const toolsData = await fetchJson(jsonUrl);
         renderDashboard(toolsData);
         
+        // Inicializa a lógica do modal após o painel ser renderizado
+        initializeModalHandler();
+        
         console.log('Painel de ferramentas carregado com sucesso!');
     } catch (error) {
         console.error('Falha ao inicializar o painel:', error);
