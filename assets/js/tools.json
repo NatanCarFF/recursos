@@ -34,5 +34,11 @@
         "name": "Agenda",
         "image": "assets/img/putty.png",
         "link": "https://natancarff.github.io/agenda/"
+    },
+    {
+        "id": "ferramenta7",
+        "name": "Lightshot",
+        "image": "assets/img/light.jpg",
+        "link": "https://app.prntscr.com/build/setup-lightshot.exe"
     }
 ]
