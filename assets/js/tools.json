@@ -1,9 +1,9 @@
 [
     {
         "id": "ferramenta1",
-        "name": "Ferramenta 1",
-        "image": "assets/img/placeholder.png",
-        "link": "#"
+        "name": "Script Baboo",
+        "image": "assets/img/baboo.png",
+        "link": "https://github.com/NatanCarFF/TI/raw/refs/heads/main/baboo/baboo-script-v32.zip"
     },
     {
         "id": "ferramenta2",
