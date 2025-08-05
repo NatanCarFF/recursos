@@ -46,5 +46,11 @@
         "name": "Natanael",
         "image": "assets/img/play.png",
         "link": "https://natancarff.github.io/info/"
+    },
+    {
+        "id": "ferramenta9",
+        "name": "Minha Bíblia",
+        "image": "assets/img/biblia.png",
+        "link": "https://play.google.com/store/apps/details?id=com.natancarff.minhabbliaapp"
     }
 ]
