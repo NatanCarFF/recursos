@@ -28,5 +28,11 @@
         "name": "PuTTY",
         "image": "assets/img/putty.png",
         "link": "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe"
+    },
+    {
+        "id": "ferramenta6",
+        "name": "Agenda",
+        "image": "assets/img/favicon.ico",
+        "link": "https://natancarff.github.io/agenda/"
     }
 ]
