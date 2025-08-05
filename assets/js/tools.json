@@ -22,5 +22,11 @@
         "name": "Defraggler",
         "image": "assets/img/defraggler.png",
         "link": "https://github.com/NatanCarFF/TI/raw/refs/heads/main/defraggler/dfsetup222.exe"
+    },
+    {
+        "id": "ferramenta5",
+        "name": "PuTTY",
+        "image": "assets/img/putty.png",
+        "link": "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe"
     }
 ]

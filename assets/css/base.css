@@ -1,4 +1,4 @@
-/* Variáveis CSS */
+/* Variáveis para o tema padrão (Light) */
 :root {
     --primary-color: #007BFF;
     --secondary-color: #6C757D;
@@ -7,8 +7,118 @@
     --card-background: #FFFFFF;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;
-    --font-family: 'Poppins', sans-serif; /* Atualizado para Poppins */
+    --font-family: 'Poppins', sans-serif;
 }
+
+/* Tema: Dark */
+[data-theme="dark"] {
+    --primary-color: #4A90E2;
+    --secondary-color: #CED4DA;
+    --background-color: #121212;
+    --text-color: #E0E0E0;
+    --card-background: #1E1E1E;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Tema: Blue Steel */
+[data-theme="blue-steel"] {
+    --primary-color: #34495E;
+    --secondary-color: #BDC3C7;
+    --background-color: #ECF0F1;
+    --text-color: #2C3E50;
+    --card-background: #FFFFFF;
+}
+
+/* Tema: Forest */
+[data-theme="forest"] {
+    --primary-color: #2C7A7B;
+    --secondary-color: #E2E8F0;
+    --background-color: #EDF2F7;
+    --text-color: #2D3748;
+    --card-background: #F7FAFC;
+}
+
+/* Tema: Autumn */
+[data-theme="autumn"] {
+    --primary-color: #B87333;
+    --secondary-color: #7B3F00;
+    --background-color: #F5F5DC;
+    --text-color: #4C3C00;
+    --card-background: #FDF5E6;
+}
+
+/* Tema: Retro */
+[data-theme="retro"] {
+    --primary-color: #C0392B;
+    --secondary-color: #7F8C8D;
+    --background-color: #DDE1E3;
+    --text-color: #2C3E50;
+    --card-background: #FFFFFF;
+}
+
+/* Tema: Purple Haze */
+[data-theme="purple-haze"] {
+    --primary-color: #8E44AD;
+    --secondary-color: #D2B4DE;
+    --background-color: #F4F1F5;
+    --text-color: #3F1C4B;
+    --card-background: #FFFFFF;
+}
+
+/* Tema: Mint */
+[data-theme="mint"] {
+    --primary-color: #00A693;
+    --secondary-color: #7FFFD4;
+    --background-color: #F0FFF0;
+    --text-color: #004D40;
+    --card-background: #FFFFFF;
+}
+
+/* Tema: High Contrast */
+[data-theme="high-contrast"] {
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --card-background: #FFFFFF;
+}
+
+/* Tema: Solarized Light */
+[data-theme="solarized-light"] {
+    --primary-color: #268BD2;
+    --secondary-color: #93A1A1;
+    --background-color: #FDF6E3;
+    --text-color: #657B83;
+    --card-background: #EEE8D5;
+}
+
+/* Tema: Solarized Dark */
+[data-theme="solarized-dark"] {
+    --primary-color: #268BD2;
+    --secondary-color: #93A1A1;
+    --background-color: #002B36;
+    --text-color: #839496;
+    --card-background: #073642;
+}
+
+/* Tema: Monokai */
+[data-theme="monokai"] {
+    --primary-color: #A6E22E;
+    --secondary-color: #F92672;
+    --background-color: #272822;
+    --text-color: #F8F8F2;
+    --card-background: #3E3D32;
+}
+
+/* Tema: Dracula */
+[data-theme="dracula"] {
+    --primary-color: #BD93F9;
+    --secondary-color: #FF79C6;
+    --background-color: #282A36;
+    --text-color: #F8F8F2;
+    --card-background: #44475A;
+}
+
 
 /* Estilos globais do corpo */
 body {
@@ -18,6 +128,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Estilos para links */
