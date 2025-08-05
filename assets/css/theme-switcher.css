@@ -1,0 +1,29 @@
+.theme-switcher {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-switcher label {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.theme-switcher select {
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    background-color: var(--card-background);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-switcher select:focus {
+    border-color: var(--primary-color);
+}

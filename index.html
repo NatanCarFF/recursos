@@ -17,12 +17,31 @@
     <link rel="stylesheet" href="assets/css/dashboard.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/theme-switcher.css">
 
     <title>Painel de Ferramentas TI</title>
 </head>
-<body>
+<body data-theme="light">
     <header class="header">
         <h1 class="header-title">Painel de Administração</h1>
+        <div class="theme-switcher">
+            <label for="theme-selector">Tema:</label>
+            <select id="theme-selector">
+                <option value="light">Padrão</option>
+                <option value="dark">Escuro</option>
+                <option value="blue-steel">Blue Steel</option>
+                <option value="forest">Forest</option>
+                <option value="autumn">Autumn</option>
+                <option value="retro">Retro</option>
+                <option value="purple-haze">Purple Haze</option>
+                <option value="mint">Mint</option>
+                <option value="high-contrast">Alto Contraste</option>
+                <option value="solarized-light">Solarized Claro</option>
+                <option value="solarized-dark">Solarized Escuro</option>
+                <option value="monokai">Monokai</option>
+                <option value="dracula">Dracula</option>
+            </select>
+        </div>
     </header>
 
     <main class="dashboard">
