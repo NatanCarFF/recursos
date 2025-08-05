@@ -26,16 +26,12 @@ function handleFormSubmit(event) {
     
     const newLink = appLinkInput.value;
     
-    // TODO: Implementar a lógica para salvar o novo link.
-    // Por enquanto, vamos apenas logar a informação no console.
-    console.log(`Salvando novo link para a ferramenta ${currentToolId}: ${newLink}`);
-    
-    // Você pode atualizar o link na própria página se desejar
-    const toolLinkElement = document.querySelector(`a[data-app="${currentToolId}"]`);
-    if (toolLinkElement) {
-        toolLinkElement.href = newLink;
+    // Abre o link em uma nova guia
+    if (newLink) {
+        window.open(newLink, '_blank');
     }
     
+    // Fecha o modal após a ação
     hideModal();
 }
 
@@ -45,7 +41,6 @@ function initializeModalHandler() {
 
     // Adiciona evento de clique no overlay para fechar o modal
     modalOverlay.addEventListener('click', (event) => {
-        // Se o clique foi no overlay, mas não no conteúdo do modal, feche-o
         if (event.target === modalOverlay) {
             hideModal();
         }
@@ -56,7 +51,7 @@ function initializeModalHandler() {
 
     // Adiciona evento de clique em todos os links 'Editar Link'
     document.addEventListener('click', async (event) => {
-        if (event.target.tagName === 'A' && event.target.textContent === 'Editar Link') {
+        if (event.target.tagName === 'A' && event.target.textContent.includes('Link')) {
             event.preventDefault();
             const toolId = event.target.dataset.app;
             
