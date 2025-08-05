@@ -19,8 +19,8 @@
     },
     {
         "id": "ferramenta4",
-        "name": "Ferramenta 4",
-        "image": "assets/img/placeholder.png",
-        "link": "#"
+        "name": "Defraggler",
+        "image": "assets/img/defraggler.png",
+        "link": "https://github.com/NatanCarFF/TI/raw/refs/heads/main/defraggler/dfsetup222.exe"
     }
 ]
