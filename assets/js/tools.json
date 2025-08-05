@@ -7,15 +7,15 @@
     },
     {
         "id": "ferramenta2",
-        "name": "Ferramenta 2",
-        "image": "assets/img/placeholder.png",
-        "link": "#"
+        "name": "Bleachbit",
+        "image": "assets/img/bleach.jpg",
+        "link": "https://github.com/NatanCarFF/TI/raw/refs/heads/main/bleachbit/BleachBit-4.6.2-setup.exe"
     },
     {
         "id": "ferramenta3",
-        "name": "Ferramenta 3",
-        "image": "assets/img/placeholder.png",
-        "link": "#"
+        "name": "TreeSize",
+        "image": "assets/img/tree.png",
+        "link": "https://customers.jam-software.de/downloadTrial.php?language=EN&article_no=80"
     },
     {
         "id": "ferramenta4",
