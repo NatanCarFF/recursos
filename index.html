@@ -18,27 +18,26 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="assets/css/theme-switcher.css">
-    <link rel="stylesheet" href="assets/css/matrix-effect.css">
 
-    <title>Painel de Ferramentas</title>
+    <title>Painel de Ferramentas TI</title>
 </head>
-<body>
-
-    <div class="matrix-background">
-        <canvas id="matrix-canvas"></canvas>
-    </div>
-
+<body data-theme="light">
     <header class="header">
-        <h1 class="header-title">Painel de Ferramentas</h1>
+        <h1 class="header-title">Painel de TI</h1>
         <div class="theme-switcher">
             <label for="theme-selector">Tema:</label>
             <select id="theme-selector">
-                <option value="light">Claro</option>
+                <option value="light">Padrão</option>
                 <option value="dark">Escuro</option>
                 <option value="blue-steel">Blue Steel</option>
                 <option value="forest">Forest</option>
-                <option value="solarized-light">Solarized Light</option>
-                <option value="solarized-dark">Solarized Dark</option>
+                <option value="autumn">Autumn</option>
+                <option value="retro">Retro</option>
+                <option value="purple-haze">Purple Haze</option>
+                <option value="mint">Mint</option>
+                <option value="high-contrast">Alto Contraste</option>
+                <option value="solarized-light">Solarized Claro</option>
+                <option value="solarized-dark">Solarized Escuro</option>
                 <option value="monokai">Monokai</option>
                 <option value="dracula">Dracula</option>
             </select>
@@ -58,7 +57,7 @@
     <div id="edit-modal" class="modal-overlay">
         <div class="modal-content">
             <button class="modal-close"><i class="fas fa-times"></i></button>
-            <h2>Abrir Link</h2>
+            <h2>Editar Link</h2>
             <form id="edit-form">
                 <div class="form-group">
                     <label for="app-name">Nome da Ferramenta</label>
@@ -75,6 +74,10 @@
         </div>
     </div>
 
-    <script src="assets/js/main.js" type="module"></script>
+    <script src="assets/js/tools.json"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/dashboard-renderer.js"></script>
+    <script src="assets/js/modal-handler.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

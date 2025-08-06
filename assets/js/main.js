@@ -1,8 +1,3 @@
-import { initializeMatrixEffect } from './matrix-effect.js';
-import { fetchJson, createElement } from './utils.js';
-import { renderDashboard } from './dashboard-renderer.js';
-import { initializeModalHandler } from './modal-handler.js';
-
 // Aguarda o DOM estar completamente carregado antes de executar o script
 document.addEventListener('DOMContentLoaded', async () => {
     const jsonUrl = 'assets/js/tools.json';
@@ -41,7 +36,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     } catch (error) {
         console.error('Falha ao inicializar o painel:', error);
     }
-    
-    // --- Inicializa o efeito da Matrix ---
-    initializeMatrixEffect();
 });
